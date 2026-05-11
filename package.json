@@ -1,0 +1,29 @@
+{
+  "name": "raw-nodejs-rest-api",
+  "version": "1.0.0",
+  "description": "A robust REST API built from scratch using Raw Node.js and TypeScript, demonstrating core backend concepts without frameworks.",
+  "main": "dist/server.js",
+  "scripts": {
+    "dev": "tsx watch ./src/server.ts",
+    "build": "tsc",
+    "start": "node ./dist/server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "nodejs",
+    "typescript",
+    "rest-api",
+    "raw-http",
+    "backend"
+  ],
+  "author": "Abdul Mazid <abdulmazid.dev@gmail.com> (https://abdulmazid-portfolio.vercel.app/)",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^25.6.2",
+    "typescript": "^6.0.3"
+  },
+  "dependencies": {
+    "dotenv": "^17.4.2",
+    "tsx": "^4.21.0"
+  }
+}
